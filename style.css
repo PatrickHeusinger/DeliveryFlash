@@ -1,0 +1,449 @@
+body {
+    margin: 0;
+}
+
+#body {
+    display: flex;
+}
+
+h5 {
+    color: rgb(11, 56, 71);
+}
+
+h3 {
+    color: rgb(11, 56, 71);
+}
+
+.section {
+    display: flex;
+}
+
+.navbar {
+    background-color: rgb(248, 102, 0);
+    height: 75px;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggi {
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: transparent;
+    border: none !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(11, 56, 71);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(36, 92, 110);
+}
+
+.offcanvas {
+    width: 150px;
+}
+
+#leftContent {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+#rightContent {
+    width: 30%;
+}
+
+.headImg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.headerIMG {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.spanImg {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 180px;
+    background-color: white;
+    border-radius: 100%;
+    border: solid 0.1px rgb(143, 143, 143);
+    ;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.logo {
+    width: 150px;
+    padding: 20px;
+}
+
+.headline {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+    width: 70%;
+}
+
+.menu {
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    padding: 20px;
+}
+
+.menuCard {
+    margin: 10px;
+    border: 0.5px solid rgb(215, 215, 215);
+    padding: 20px;
+    position: relative;
+}
+
+.fa-solid {
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+span {
+    color: rgb(143, 143, 143);
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.coloredSpan {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(248, 102, 0);
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+#food {
+    width: 70%;
+}
+
+.favouriteFood {
+    background-color: rgb(235, 235, 235);
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#rightDiv {
+    border: 1px solid rgb(209, 204, 204);
+    width: 30%;
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    overflow-y: scroll;
+}
+
+.rightHeadline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    color: rgb(143, 143, 143);
+    width: 60%;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(248, 102, 0);
+    margin-top: 15px;
+    padding-bottom: 25px;
+}
+
+.image {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+}
+
+.order {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: solid 1px rgb(215, 215, 215);
+    padding: 20px;
+    margin-right: 0 !important;
+    cursor: pointer;
+}
+
+.fa-basket-shopping {
+    margin: 0;
+    padding: 0;
+}
+
+.emptyBasket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.shopping {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.shopping img {
+    width: 100px;
+}
+
+.deliveryInfo {
+    text-align: center;
+    color: rgb(143, 143, 143);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.basketContent {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color: rgb(11, 56, 71);
+    padding: 20px;
+    margin: 20px 10px;
+    border-bottom: 1px solid rgb(143, 143, 143);
+    height: 100px;
+}
+
+.basketDescription {
+    margin-bottom: 10px;
+}
+
+.pay {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.payButton {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(17, 95, 202);
+    border: none;
+    width: 70%;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.basketButton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    background-color: white;
+    border: solid 1px rgb(215, 215, 215);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.basketButton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    background-color: white;
+    border: solid 1px rgb(215, 215, 215);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.betweenSum {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.basketResponsive {
+    width: 100%;
+}
+
+#responsivePay {
+    color: white;
+}
+
+.section {
+    display: none;
+}
+
+.responsiveBasketStyle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+}
+
+.back {
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 50px;
+}
+
+.mobileBack {
+    display: none;
+}
+
+.x {
+    display: none;
+}
+
+.x2 {
+    display: none;
+}
+
+@media (max-width:1200px) {
+    .menu {
+        display: none;
+    }
+    .icon-responsive {
+        display: none;
+    }
+    .image {
+        display: none;
+    }
+    .emptyBasket {
+        font-size: 15px;
+        text-align: center;
+    }
+    .icon-responsive2 {
+        width: 300px;
+    }
+    .headline h3 {
+        font-size: 20px;
+    }
+    .menuCard h4 {
+        font-size: 20px;
+    }
+    .order {
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+    }
+    .basket {
+        overflow-y: scroll;
+        display: none;
+    }
+    #rightDiv {
+        border: 1px solid rgb(209, 204, 204);
+        width: 100%;
+        background-color: white;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+    .mobileBack {
+        position: block;
+        color: black;
+        width: 50px;
+        height: 50px;
+    }
+    #leftContent {
+        width: 100%;
+    }
+    .payButtonResponsive {
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(17, 95, 202);
+        border: none;
+        width: 100%;
+        padding: 30px;
+        border-radius: 2px;
+        position: fixed;
+        height: 75px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 8px;
+        border: none;
+        cursor: pointer;
+    }
+    .x {
+        color: rgb(248, 102, 0);
+        border: 1px solid gray;
+        display: flex;
+        padding: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .x2 {
+        color: rgb(248, 102, 0);
+        border: 1px solid gray;
+        display: flex;
+        padding: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}
